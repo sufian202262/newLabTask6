@@ -1,0 +1,25 @@
+@model List<Student>
+
+<h2>Student List</h2>
+
+<table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Id</td>
+            <td>@s.Name</td>
+            <td>@s.Email</td>
+            <td>@(s.Grade >= 50 ? "Passed" : "Failed")</td>
+        </tr>
+    }
+    </tbody>
+</table>
