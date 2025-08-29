@@ -94,3 +94,4 @@
 /Users/abusufian/Documents/csharp/LabTask6/labtask6/obj/Debug/net9.0/labtask6.pdb
 /Users/abusufian/Documents/csharp/LabTask6/labtask6/obj/Debug/net9.0/labtask6.genruntimeconfig.cache
 /Users/abusufian/Documents/csharp/LabTask6/labtask6/obj/Debug/net9.0/ref/labtask6.dll
+/Users/abusufian/Documents/csharp/LabTask6/labtask6/obj/Debug/net9.0/labtask6.sourcelink.json
